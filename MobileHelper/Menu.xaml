@@ -17,11 +17,11 @@
         <ShellContent Title="О нас" IsTabStop="True" ContentTemplate="{DataTemplate local:About}"/>
     </FlyoutItem>
     <!--Черта-->
-    <FlyoutItem Title="Побробнее"
+    <FlyoutItem Title="Подробнее"
                 Shell.TabBarIsVisible="False"
                 FlyoutDisplayOptions="AsMultipleItems">
         <!--Icon="" и закинуть в drawable-->
         <ShellContent Title="Контакты" IsTabStop="True" ContentTemplate="{DataTemplate local:Contacts}"/>
-        <ShellContent Title="Сервисные центры" IsTabStop="True" ContentTemplate="{DataTemplate local:About}"/>
+        <ShellContent Title="Дилерские центры" IsTabStop="True" ContentTemplate="{DataTemplate local:DealerMap}"/>
     </FlyoutItem>
 </Shell>

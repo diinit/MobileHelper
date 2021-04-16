@@ -34,5 +34,12 @@
     <string>MobileHelper</string>
     <key>XSAppIconAssets</key>
     <string>Assets.xcassets/AppIcon.appiconset</string>
+
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Разрешить доступ к Вашей геопозиции всегда?</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Разрешить доступ к Вашей геопозиции во время использования приложения?</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Разрешить доступ к Вашей геопозиции всегда?</string>
 </dict>
 </plist>

@@ -1,0 +1,143 @@
+{
+
+  "html_attributions": [],
+  "next_page_token": "CrQEJgIAAHkeCtnPrStdevV698oaeW9intrlX2YmGkAomiVM3-REQIyCZi8f2VmJ0GLb_cuKF2ISfGcu5dPZ0y7W_z544Y7k0lhqzbabtH1QlEnwlzUwLOpNPv8ilr_ZVE4_nnxytYIF0y5b1EfuGcpwqDfmXSCLXAPv6reOtgZuQtswMQ3n_JQRcGrPczt6K-0HD7_l2q9VwaGNXQMNjMpd1qUc9_zC1MhfOoFMNMWjDlvEGBSov7g-s-9SH3oMA_B0HN4C4EqvisrIhSxAxX7nUgOoYD8-gzV7h4m7cLZt25WmN1q4z3FsyqHe3t7PYlpM7kCmTKurQclJ0NdJNKfrghV09b-oGpmiudbXFjH8RkoTve8hY-xre5PrBInAWAhUlUNHxkmwhvDnl5_qr_ky6WkSXCUpOUe9Azv5RILZOSj0kVJetWZmyfIsa2HkAednKnYg-BReVfK2IJpgDxeYTD5QReHc4ZzuS_zKsY4RlB13ONiw7o5vnVWBgf3NxV7KU0eZe0sAuFXA3lduqIrAVxNOVZFezRRb9X4EsxSKl3mGaeHgpT2hClm6kIxjFKV_UT9_ecqovs-ADA9o_wJGiyckBi7YV9NmtVEc4zWulZTMrqA1MGxL39Ne97NRly1ug4hIvoiFzr7i0sVzIN4pKVmqOVAJP3IYPP4Akk7nQjajozhlcj_uj4ksaucFOtUNz-4j6Lc1aZXhbDvkpKuxsLGI8PixBkE0La1O6rsDR9xwc0J3EhAd-MlMDnRdBf_imvnuLP3kGhQRQVFVtR5nMKXqd5-MIz3LR-2OoA",
+  //Примеры меток для заполнения
+  "results": [
+    {
+      "geometry": {
+        "location": {
+          "lat": 47.61733,
+          "lng": -122.1315288
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.6186224302915,
+            "lng": -122.1301772197085
+          },
+          "southwest": {
+            "lat": 47.6159244697085,
+            "lng": -122.1328751802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+      "id": "ceb41ee197bd742ca8356b05e88299adb536ef65",
+      "name": "Opus Bank",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 608,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/102030187927461286901/photos\"\u003eOpus Bank\u003c/a\u003e"
+          ],
+          "photo_reference": "CmRZAAAA6_Cu4Hjc8npp7EinnGabxM-YnleoPNTtB_h37kCQZgaJpe-uqnit3x5KKvx7Jgo8Qp4Bp88XGdBtePjUcsK0o525Rid3-7U6QqSOPUkjUJjMja4LBccKKAAkH948hr9FEhA9t6pW-nu-CRCNZpkhGN79GhT1keroclZhtaRlNrnfcb3yDwok-A",
+          "width": 1080
+        }
+      ],
+      "place_id": "ChIJwYR707ptkFQRPVkcj_fXLIs",
+      "plus_code": {
+        "compound_code": "JV89+W9 Bellevue, Washington, United States",
+        "global_code": "84VVJV89+W9"
+      },
+      "rating": 3,
+      "reference": "ChIJwYR707ptkFQRPVkcj_fXLIs",
+      "types": [ "bank", "atm", "finance", "point_of_interest", "establishment" ],
+      "user_ratings_total": 2,
+      "vicinity": "15600 Northeast 8th Street, Bellevue"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 47.6212864,
+          "lng": -122.1665096
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.6228103802915,
+            "lng": -122.1652372197085
+          },
+          "southwest": {
+            "lat": 47.62011241970851,
+            "lng": -122.1679351802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+      "id": "967a462d52d71907574ccad39f69ef647fe746ee",
+      "name": "Banner Bank",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 607,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/100110800849776207935/photos\"\u003eBanner Bank\u003c/a\u003e"
+          ],
+          "photo_reference": "CmRaAAAAJmY8Txjh70dVvdjuDbBTkwsHNd1LT0eMj1tHRUX6pu2WBL1cPwVeRpQ30gWhsbkdsRI-jGW6FPppOTRoT1x6embz94B0FnAh0XyaNQJjMd5L65XYnr-lZmKPRdLkp_pxEhCKSaMbCCOoZtWo-BY2EDQlGhS0TemsK9wZ_G2sIjDccQWEfJ2ACg",
+          "width": 1080
+        }
+      ],
+      "place_id": "ChIJq_wo1fdskFQRj9FGmbcf1RQ",
+      "plus_code": {
+        "compound_code": "JRCM+G9 Bellevue, Washington, United States",
+        "global_code": "84VVJRCM+G9"
+      },
+      "rating": 5,
+      "reference": "ChIJq_wo1fdskFQRj9FGmbcf1RQ",
+      "scope": "GOOGLE",
+      "types": [ "bank", "finance", "point_of_interest", "establishment" ],
+      "user_ratings_total": 3,
+      "vicinity": "13033 Bel-Red Road, Bellevue"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 47.6317963,
+          "lng": -122.1424224
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.6330903802915,
+            "lng": -122.1410785197085
+          },
+          "southwest": {
+            "lat": 47.6303924197085,
+            "lng": -122.1437764802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+      "id": "3af6cab6cd4a9be138e283f52580d01dd5807bea",
+      "name": "Bank of America Financial Center",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/104158403368603079923/photos\"\u003eDavid Roberts\u003c/a\u003e"
+          ],
+          "photo_reference": "CmRaAAAAK6GezH_HtuVkHTMxTTlnF469lELNwcXMoiKtrbwqcIJE6RLd1fXcKPx-U4hebLQYkGHku8I3kcNDbDl0KFNTMwTUEYEAas5iQVntEii-bR7RW5nsZ6XE3KU2wc_pDbQxEhCdL5w4zhMfXpsbml9LzgmUGhRGU_4nX8VdBRrMjXoyIuP21HrI-Q",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJm5_gWghtkFQRyW8TvVIffsw",
+      "plus_code": {
+        "compound_code": "JVJ5+P2 Redmond, Washington, United States",
+        "global_code": "84VVJVJ5+P2"
+      },
+      "rating": 2.3,
+      "reference": "ChIJm5_gWghtkFQRyW8TvVIffsw",
+      "scope": "GOOGLE",
+      "types": [ "bank", "finance", "point_of_interest", "establishment" ],
+      "user_ratings_total": 42,
+      "vicinity": "2400 148th Avenue Northeast, Redmond"
+    }
+  ],
+  "status": "OK"
+}
