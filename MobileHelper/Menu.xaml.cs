@@ -12,9 +12,14 @@ namespace MobileHelper
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Menu : Shell
     {
+
         public Menu()
         {
-            InitializeComponent();
+            
+            NavigationPage.SetHasNavigationBar(this, false);
+            
+        InitializeComponent();
+            
         }
     }
 }

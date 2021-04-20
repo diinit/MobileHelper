@@ -4,6 +4,7 @@ using Xamarin.Forms.Xaml;
 
 namespace MobileHelper
 {
+
     public partial class App : Application
     {
         public App()
@@ -11,6 +12,9 @@ namespace MobileHelper
             InitializeComponent();
 
             MainPage = new Menu();
+            
+            //break fucking app
+            //MainPage = new NavigationPage(new Menu());
         }
 
         protected override void OnStart()

@@ -14,6 +14,7 @@ namespace MobileHelper
     {
         public About()
         {
+            NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent();
         }
     }

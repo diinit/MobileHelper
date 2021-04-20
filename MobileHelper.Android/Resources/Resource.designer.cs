@@ -18277,6 +18277,9 @@ namespace MobileHelper.Droid
 			// aapt resource value: 0x7F0F02BC
 			public const int collectionViewTheme = 2131690172;
 			
+			// aapt resource value: 0x7F0F02BD
+			public const int color_bar = 2131690173;
+			
 			// aapt resource value: 0x7F0F00E4
 			public const int EmptyTheme = 2131689700;
 			
@@ -18409,11 +18412,11 @@ namespace MobileHelper.Droid
 			// aapt resource value: 0x7F0F010F
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131689743;
 			
-			// aapt resource value: 0x7F0F02BD
-			public const int scrollViewScrollBars = 2131690173;
-			
 			// aapt resource value: 0x7F0F02BE
-			public const int scrollViewTheme = 2131690174;
+			public const int scrollViewScrollBars = 2131690174;
+			
+			// aapt resource value: 0x7F0F02BF
+			public const int scrollViewTheme = 2131690175;
 			
 			// aapt resource value: 0x7F0F0116
 			public const int ShapeAppearanceOverlay = 2131689750;
