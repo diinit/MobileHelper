@@ -12,7 +12,6 @@ namespace MobileHelper
             InitializeComponent();
 
             MainPage = new Menu();
-            
             //break fucking app
             //MainPage = new NavigationPage(new Menu());
         }

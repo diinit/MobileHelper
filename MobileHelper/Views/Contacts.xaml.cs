@@ -8,7 +8,7 @@ using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MobileHelper
+namespace MobileHelper.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     

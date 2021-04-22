@@ -2,6 +2,7 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:MobileHelper"
+       xmlns:localviews="clr-namespace:MobileHelper.Views"
              x:Class="MobileHelper.Menu">
     <Shell.FlyoutHeader>
         <local:MenuHeader>
@@ -13,15 +14,33 @@
                 Shell.TabBarIsVisible="False"
                 FlyoutDisplayOptions="AsMultipleItems">
         <!--Icon="" и закинуть в drawable-->
-        <ShellContent Title="Каталог техники" IsTabStop="True" ContentTemplate="{DataTemplate local:About}"/>
-        <ShellContent Title="О нас" IsTabStop="True" ContentTemplate="{DataTemplate local:About}"/>
+        
+        <ShellContent 
+            Title="Контакты" 
+            Icon="phone.png"
+            IsTabStop="True" 
+            ContentTemplate="{DataTemplate localviews:Contacts}"/>
+        <ShellContent 
+            Title="Дилерские центры" 
+            Icon="dealer.png"
+            IsTabStop="True" 
+            ContentTemplate="{DataTemplate local:DealerMap}"/>
+        <ShellContent 
+            Title="Каталог техники" 
+            IsTabStop="True" 
+            Icon="tractor.png"
+            ContentTemplate="{DataTemplate localviews:TracrorList}"/>
     </FlyoutItem>
     <!--Черта-->
     <FlyoutItem Title="Подробнее"
                 Shell.TabBarIsVisible="False"
                 FlyoutDisplayOptions="AsMultipleItems">
         <!--Icon="" и закинуть в drawable-->
-        <ShellContent Title="Контакты" IsTabStop="True" ContentTemplate="{DataTemplate local:Contacts}"/>
-        <ShellContent Title="Дилерские центры" IsTabStop="True" ContentTemplate="{DataTemplate local:DealerMap}"/>
+        <ShellContent 
+            Title="О нас" 
+            IsTabStop="True" 
+            Icon="info.png"
+            ContentTemplate="{DataTemplate localviews:About}"/>
     </FlyoutItem>
+
 </Shell>
