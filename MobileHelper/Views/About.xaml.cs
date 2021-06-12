@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MobileHelper.Models;
+using MobileHelper.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +17,7 @@ namespace MobileHelper.Views
         {
             NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent();
+            BindingContext = new AboutVM();
         }
     }
 }

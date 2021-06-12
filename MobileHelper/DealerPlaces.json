@@ -1,142 +1,479 @@
 {
-
+  "ensure_ascii=False": [],
   "html_attributions": [],
   "next_page_token": "CrQEJgIAAHkeCtnPrStdevV698oaeW9intrlX2YmGkAomiVM3-REQIyCZi8f2VmJ0GLb_cuKF2ISfGcu5dPZ0y7W_z544Y7k0lhqzbabtH1QlEnwlzUwLOpNPv8ilr_ZVE4_nnxytYIF0y5b1EfuGcpwqDfmXSCLXAPv6reOtgZuQtswMQ3n_JQRcGrPczt6K-0HD7_l2q9VwaGNXQMNjMpd1qUc9_zC1MhfOoFMNMWjDlvEGBSov7g-s-9SH3oMA_B0HN4C4EqvisrIhSxAxX7nUgOoYD8-gzV7h4m7cLZt25WmN1q4z3FsyqHe3t7PYlpM7kCmTKurQclJ0NdJNKfrghV09b-oGpmiudbXFjH8RkoTve8hY-xre5PrBInAWAhUlUNHxkmwhvDnl5_qr_ky6WkSXCUpOUe9Azv5RILZOSj0kVJetWZmyfIsa2HkAednKnYg-BReVfK2IJpgDxeYTD5QReHc4ZzuS_zKsY4RlB13ONiw7o5vnVWBgf3NxV7KU0eZe0sAuFXA3lduqIrAVxNOVZFezRRb9X4EsxSKl3mGaeHgpT2hClm6kIxjFKV_UT9_ecqovs-ADA9o_wJGiyckBi7YV9NmtVEc4zWulZTMrqA1MGxL39Ne97NRly1ug4hIvoiFzr7i0sVzIN4pKVmqOVAJP3IYPP4Akk7nQjajozhlcj_uj4ksaucFOtUNz-4j6Lc1aZXhbDvkpKuxsLGI8PixBkE0La1O6rsDR9xwc0J3EhAd-MlMDnRdBf_imvnuLP3kGhQRQVFVtR5nMKXqd5-MIz3LR-2OoA",
-  //������� ����� ��� ����������
   "results": [
+
     {
       "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 53.8933386,
+            "lng": 27.6834978
+          },
+          "southwest": {
+            "lat": 53.89161259999999,
+            "lng": 27.6806277
+          }
+        },
         "location": {
-          "lat": 47.61733,
-          "lng": -122.1315288
+          "lat": 53.8924905,
+          "lng": 27.682052
         },
         "viewport": {
           "northeast": {
-            "lat": 47.6186224302915,
-            "lng": -122.1301772197085
+            "lat": 53.89382458029149,
+            "lng": 27.6834978
           },
           "southwest": {
-            "lat": 47.6159244697085,
-            "lng": -122.1328751802915
+            "lat": 53.89112661970849,
+            "lng": 27.6806277
           }
         }
       },
-      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
-      "id": "ceb41ee197bd742ca8356b05e88299adb536ef65",
-      "name": "Opus Bank",
+      "name": "ООО \"Белагро Бел\"",
       "opening_hours": {
         "open_now": false
       },
-      "photos": [
-        {
-          "height": 608,
-          "html_attributions": [
-            "\u003ca href=\"https://maps.google.com/maps/contrib/102030187927461286901/photos\"\u003eOpus Bank\u003c/a\u003e"
-          ],
-          "photo_reference": "CmRZAAAA6_Cu4Hjc8npp7EinnGabxM-YnleoPNTtB_h37kCQZgaJpe-uqnit3x5KKvx7Jgo8Qp4Bp88XGdBtePjUcsK0o525Rid3-7U6QqSOPUkjUJjMja4LBccKKAAkH948hr9FEhA9t6pW-nu-CRCNZpkhGN79GhT1keroclZhtaRlNrnfcb3yDwok-A",
-          "width": 1080
-        }
-      ],
-      "place_id": "ChIJwYR707ptkFQRPVkcj_fXLIs",
-      "plus_code": {
-        "compound_code": "JV89+W9 Bellevue, Washington, United States",
-        "global_code": "84VVJV89+W9"
-      },
-      "rating": 3,
-      "reference": "ChIJwYR707ptkFQRPVkcj_fXLIs",
-      "types": [ "bank", "atm", "finance", "point_of_interest", "establishment" ],
-      "user_ratings_total": 2,
-      "vicinity": "15600 Northeast 8th Street, Bellevue"
+      "place_id": "ChIJh_jE39PN20YRs65UrnZG0Vk",
+      "types": [ "premise" ]
     },
+
     {
       "geometry": {
         "location": {
-          "lat": 47.6212864,
-          "lng": -122.1665096
+          "lat": 53.8211492,
+          "lng": 27.5769662
         },
+        "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
-            "lat": 47.6228103802915,
-            "lng": -122.1652372197085
+            "lat": 53.8226606302915,
+            "lng": 27.5781753802915
           },
           "southwest": {
-            "lat": 47.62011241970851,
-            "lng": -122.1679351802915
+            "lat": 53.8199626697085,
+            "lng": 27.5754774197085
           }
         }
       },
-      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
-      "id": "967a462d52d71907574ccad39f69ef647fe746ee",
-      "name": "Banner Bank",
+      "name": "ООО \"МКС-комплект\"",
+
       "opening_hours": {
         "open_now": false
       },
-      "photos": [
-        {
-          "height": 607,
-          "html_attributions": [
-            "\u003ca href=\"https://maps.google.com/maps/contrib/100110800849776207935/photos\"\u003eBanner Bank\u003c/a\u003e"
-          ],
-          "photo_reference": "CmRaAAAAJmY8Txjh70dVvdjuDbBTkwsHNd1LT0eMj1tHRUX6pu2WBL1cPwVeRpQ30gWhsbkdsRI-jGW6FPppOTRoT1x6embz94B0FnAh0XyaNQJjMd5L65XYnr-lZmKPRdLkp_pxEhCKSaMbCCOoZtWo-BY2EDQlGhS0TemsK9wZ_G2sIjDccQWEfJ2ACg",
-          "width": 1080
-        }
-      ],
-      "place_id": "ChIJq_wo1fdskFQRj9FGmbcf1RQ",
+      "place_id": "ChIJjRLkAnvR20YRFARPqx935H0",
       "plus_code": {
-        "compound_code": "JRCM+G9 Bellevue, Washington, United States",
-        "global_code": "84VVJRCM+G9"
+        "compound_code": "RHCG+FQ Минск, Беларусь",
+        "global_code": "9G59RHCG+FQ"
       },
-      "rating": 5,
-      "reference": "ChIJq_wo1fdskFQRj9FGmbcf1RQ",
-      "scope": "GOOGLE",
-      "types": [ "bank", "finance", "point_of_interest", "establishment" ],
-      "user_ratings_total": 3,
-      "vicinity": "13033 Bel-Red Road, Bellevue"
+      "types": [ "street_address" ]
     },
+
     {
       "geometry": {
         "location": {
-          "lat": 47.6317963,
-          "lng": -122.1424224
+          "lat": 53.8354771,
+          "lng": 27.5599337
         },
+        "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
-            "lat": 47.6330903802915,
-            "lng": -122.1410785197085
+            "lat": 53.8370511802915,
+            "lng": 27.56121733029151
           },
           "southwest": {
-            "lat": 47.6303924197085,
-            "lng": -122.1437764802915
+            "lat": 53.8343532197085,
+            "lng": 27.5585193697085
           }
         }
       },
-      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
-      "id": "3af6cab6cd4a9be138e283f52580d01dd5807bea",
-      "name": "Bank of America Financial Center",
+      "name": "ООО \"Агро НКА\"",
       "opening_hours": {
         "open_now": false
       },
-      "photos": [
-        {
-          "height": 3024,
-          "html_attributions": [
-            "\u003ca href=\"https://maps.google.com/maps/contrib/104158403368603079923/photos\"\u003eDavid Roberts\u003c/a\u003e"
-          ],
-          "photo_reference": "CmRaAAAAK6GezH_HtuVkHTMxTTlnF469lELNwcXMoiKtrbwqcIJE6RLd1fXcKPx-U4hebLQYkGHku8I3kcNDbDl0KFNTMwTUEYEAas5iQVntEii-bR7RW5nsZ6XE3KU2wc_pDbQxEhCdL5w4zhMfXpsbml9LzgmUGhRGU_4nX8VdBRrMjXoyIuP21HrI-Q",
-          "width": 4032
-        }
-      ],
-      "place_id": "ChIJm5_gWghtkFQRyW8TvVIffsw",
+      "place_id": "ChIJC_phmqDR20YRFmD1R86ZvOk",
       "plus_code": {
-        "compound_code": "JVJ5+P2 Redmond, Washington, United States",
-        "global_code": "84VVJVJ5+P2"
+        "compound_code": "RHP5+5X Минск, Беларусь",
+        "global_code": "9G59RHP5+5X"
       },
-      "rating": 2.3,
-      "reference": "ChIJm5_gWghtkFQRyW8TvVIffsw",
-      "scope": "GOOGLE",
-      "types": [ "bank", "finance", "point_of_interest", "establishment" ],
-      "user_ratings_total": 42,
-      "vicinity": "2400 148th Avenue Northeast, Redmond"
+      "types": [ "street_address" ]
+    },
+
+    {
+      "geometry": {
+        "location": {
+          "lat": 53.890595,
+          "lng": 30.2781178
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 53.8916909302915,
+            "lng": 30.2799376302915
+          },
+          "southwest": {
+            "lat": 53.8889929697085,
+            "lng": 30.2772396697085
+          }
+        }
+      },
+      "name": "ОДО \"Технолог-М\"",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJJXX4tE5R0EYRllBHFWzfj-w",
+      "plus_code": {
+        "compound_code": "V7RH+66 Могилёв, Беларусь",
+        "global_code": "9G5GV7RH+66"
+      },
+      "types": [ "car_repair", "establishment", "point_of_interest", "store" ]
+    },
+
+    {
+      "geometry": {
+        "location": {
+          "lat": 53.9632665,
+          "lng": 27.743108
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 53.96462013029149,
+            "lng": 27.7444649302915
+          },
+          "southwest": {
+            "lat": 53.96192216970849,
+            "lng": 27.7417669697085
+          }
+        }
+      },
+      "name": "ООО \"ВелесТоргАгро\"",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJFTYSAmPJ20YRWS-qS6dzzZc",
+      "plus_code": {
+        "compound_code": "XP7V+86 Минск, Беларусь",
+        "global_code": "9G59XP7V+86"
+      },
+      "types": [ "establishment", "point_of_interest" ]
+    },
+
+    {
+      "geometry": {
+        "location": {
+          "lat": 53.0415392,
+          "lng": 27.5864364
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 53.0428937302915,
+            "lng": 27.5878199802915
+          },
+          "southwest": {
+            "lat": 53.0401957697085,
+            "lng": 27.5851220197085
+          }
+        }
+      },
+      "name": "ООО \"Виктория-2000\"",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJBZ0c4fLJ2UYRXCejzF3LRas",
+      "plus_code": {
+        "compound_code": "2HRP+JH Слуцк, Беларусь",
+        "global_code": "9G592HRP+JH"
+      },
+      "types": [ "establishment", "point_of_interest", "store" ]
+    },
+
+    {
+      "geometry": {
+        "location": {
+          "lat": 53.9011927,
+          "lng": 27.5781123
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 53.9028153302915,
+            "lng": 27.5790701802915
+          },
+          "southwest": {
+            "lat": 53.9001173697085,
+            "lng": 27.5763722197085
+          }
+        }
+      },
+      "name": "ООО \"КОНТРАКТОР\"",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJp9wV_LfP20YRfzrNU8KFc1c",
+      "plus_code": {
+        "compound_code": "WH2H+F6 Минск, Беларусь",
+        "global_code": "9G59WH2H+F6"
+      },
+      "types": [ "establishment", "point_of_interest" ]
+    },
+
+    {
+      "geometry": {
+        "location": {
+          "lat": 53.6855383,
+          "lng": 23.8526011
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 53.6869123802915,
+            "lng": 23.8538362802915
+          },
+          "southwest": {
+            "lat": 53.6842144197085,
+            "lng": 23.8511383197085
+          }
+        }
+      },
+      "name": "ООО \"Техстройкомплект\"",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJqz2BtszX30YRGZ0h6shkFh4",
+      "plus_code": {
+        "compound_code": "MVP3+62 Гродно, Беларусь",
+        "global_code": "9G55MVP3+62"
+      },
+      "types": [ "establishment", "point_of_interest" ]
+    },
+
+    {
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 55.4974444,
+            "lng": 37.7841649
+          },
+          "southwest": {
+            "lat": 55.497329,
+            "lng": 37.783944
+          }
+        },
+        "location": {
+          "lat": 55.4973745,
+          "lng": 37.7840326
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 55.4987356802915,
+            "lng": 37.7855989302915
+          },
+          "southwest": {
+            "lat": 55.4960377197085,
+            "lng": 37.78290096970851
+          }
+        }
+      },
+      "name": "ООО \"Торговый Дом Минского тракторного завода\"",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJC0svqBWlSkER5yz3F-j6Arg",
+      "types": [ "premise" ]
+    },
+
+    {
+      "geometry": {
+        "location": {
+          "lat": 55.8404587,
+          "lng": 52.0684791
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 55.8418065802915,
+            "lng": 52.07080663029149
+          },
+          "southwest": {
+            "lat": 55.8391086197085,
+            "lng": 52.06810866970849
+          }
+        }
+      },
+      "name": "ООО \"Торгово-производственная компания МТЗ-Татарстан\"",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJAQAAwGKMX0ERI1fYpa05AlI",
+      "plus_code": {
+        "compound_code": "R3R9+59 Елабуга, Республика Татарстан, Россия",
+        "global_code": "9H7JR3R9+59"
+      },
+      "types": [ "establishment", "food", "point_of_interest", "store" ]
+    },
+
+    {
+      "geometry": {
+        "location": {
+          "lat": 45.0331115,
+          "lng": 41.955381
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 45.03455958029149,
+            "lng": 41.9567134302915
+          },
+          "southwest": {
+            "lat": 45.03186161970849,
+            "lng": 41.9540154697085
+          }
+        }
+      },
+      "name": "ООО \"Торговый Дом МТЗ-Ставрополь\"",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJpQgKlJ4A-UARZNTxZvztu_w",
+      "plus_code": {
+        "compound_code": "2XM4+65 Ставрополь, Ставропольский край, Россия",
+        "global_code": "8HQ32XM4+65"
+      },
+      "types": [ "establishment", "food", "point_of_interest" ]
+    },
+
+    {
+      "geometry": {
+        "location": {
+          "lat": 54.868812,
+          "lng": 82.99009599999999
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 54.8701593802915,
+            "lng": 82.9915629802915
+          },
+          "southwest": {
+            "lat": 54.8674614197085,
+            "lng": 82.9888650197085
+          }
+        }
+      },
+      "name": "ООО \"Торговый Дом МТЗ-Сибирь\"",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJ30PTJ-Xh30IRx5e34HXF9Zc",
+      "plus_code": {
+        "compound_code": "VX9R+G2 Элитный, Новосибирская область, Россия",
+        "global_code": "9M64VX9R+G2"
+      },
+      "types": [ "establishment", "food", "point_of_interest" ]
+    },
+
+    {
+      "geometry": {
+        "location": {
+          "lat": 59.1955925,
+          "lng": 37.9503071
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 59.19692873029151,
+            "lng": 37.95166278029149
+          },
+          "southwest": {
+            "lat": 59.1942307697085,
+            "lng": 37.94896481970849
+          }
+        }
+      },
+      "name": "ООО \"Торговый Дом МТЗ-Северо-Запад\"",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJjUNl8Qa6r0YR33J4zmtKT_s",
+      "plus_code": {
+        "compound_code": "5XW2+64 Тоншалово, Вологодская область, Россия",
+        "global_code": "9GFV5XW2+64"
+      },
+      "types": [ "establishment", "moving_company", "point_of_interest" ]
+    },
+
+    {
+      "geometry": {
+        "location": {
+          "lat": 45.013354,
+          "lng": 39.1186924
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 45.01470073029149,
+            "lng": 39.1197673802915
+          },
+          "southwest": {
+            "lat": 45.0120027697085,
+            "lng": 39.1170694197085
+          }
+        }
+      },
+      "name": "Филиал ООО \"Торговый Дом МТЗ-Северо-Запад\"",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJc0NFUoNP8EARpB0MjSUyGgg",
+      "plus_code": {
+        "compound_code": "2479+8F Краснодар, Краснодарский край, Россия",
+        "global_code": "8GQX2479+8F"
+      },
+      "types": [ "establishment", "food", "point_of_interest" ]
+    },
+
+    {
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 55.52325,
+            "lng": 37.771125
+          },
+          "southwest": {
+            "lat": 55.523125,
+            "lng": 37.771
+          }
+        },
+        "location": {
+          "lat": 55.523127,
+          "lng": 37.77105299999999
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 55.5245364802915,
+            "lng": 37.7724114802915
+          },
+          "southwest": {
+            "lat": 55.5218385197085,
+            "lng": 37.7697135197085
+          }
+        }
+      },
+      "name": "Общество с ограниченной ответственностью \"Доминант\"",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "GhIJylNW0_XCS0ARyD1d3bHiQkA",
+      "plus_code": {
+        "compound_code": "GQFC+7C Горки Ленинские, Московская область, Россия",
+        "global_code": "9G7VGQFC+7C"
+      },
+      "types": [ "plus_code" ]
     }
   ],
   "status": "OK"

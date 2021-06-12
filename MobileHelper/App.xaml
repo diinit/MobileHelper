@@ -3,12 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MobileHelper.App">
     <Application.Resources>
-        <!--<ResourceDictionary>
-            <Color x:Key="Primary">Crimson</Color>
-            <Style x:Key="MainTheme" TargetType="" >
-                <Setter Property="TabBarBackgroundColor" Value="{StaticResource Primary}"/>
-            </Style>
-        </ResourceDictionary>
-        -->
+
     </Application.Resources>
 </Application>

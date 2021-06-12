@@ -3,23 +3,34 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:MobileHelper"
        xmlns:localviews="clr-namespace:MobileHelper.Views"
+       Shell.BackgroundColor="#DC143C"
+       Shell.TabBarBackgroundColor="#DC143C"
              x:Class="MobileHelper.Menu">
     <Shell.FlyoutHeader>
         <local:MenuHeader>
-            
+
         </local:MenuHeader>
     </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="Подробнее"
+                Shell.TabBarIsVisible="False"
+                FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent 
+            Title="О нас" 
+            IsTabStop="True" 
+            Icon="info.png"
+            ContentTemplate="{DataTemplate localviews:About}"/>
+    </FlyoutItem>
     
     <FlyoutItem Title="Основное"
                 Shell.TabBarIsVisible="False"
                 FlyoutDisplayOptions="AsMultipleItems">
-        <!--Icon="" и закинуть в drawable-->
-        
+
         <ShellContent 
             Title="Контакты" 
             Icon="phone.png"
             IsTabStop="True" 
-            ContentTemplate="{DataTemplate localviews:Contacts}"/>
+            ContentTemplate="{DataTemplate localviews:Contact}"/>
         <ShellContent 
             Title="Дилерские центры" 
             Icon="dealer.png"
@@ -32,15 +43,6 @@
             ContentTemplate="{DataTemplate localviews:TracrorList}"/>
     </FlyoutItem>
     <!--Черта-->
-    <FlyoutItem Title="Подробнее"
-                Shell.TabBarIsVisible="False"
-                FlyoutDisplayOptions="AsMultipleItems">
-        <!--Icon="" и закинуть в drawable-->
-        <ShellContent 
-            Title="О нас" 
-            IsTabStop="True" 
-            Icon="info.png"
-            ContentTemplate="{DataTemplate localviews:About}"/>
-    </FlyoutItem>
+
 
 </Shell>

@@ -8,6 +8,7 @@
 	<item name="colorPrimary">#DC143C</item>
     <item name="colorPrimaryDark">#DC143C</item>-->
 	<item name="android:actionBarStyle">@style/color_bar</item>
+	<item name="android:colorActivatedHighlight" >#DC143C</item>
     <!--<item name="colorAccent">#FF4081</item>-->
   </style>
 	<!--

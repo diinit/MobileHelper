@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Threading.Tasks;
 
 namespace MobileHelper
 {
@@ -10,10 +11,7 @@ namespace MobileHelper
         public App()
         {
             InitializeComponent();
-
             MainPage = new Menu();
-            //break fucking app
-            //MainPage = new NavigationPage(new Menu());
         }
 
         protected override void OnStart()

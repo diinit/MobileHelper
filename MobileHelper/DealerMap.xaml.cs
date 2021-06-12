@@ -42,8 +42,11 @@ namespace MobileHelper
 
                 foreach (var place in resultObject.results)
                 {
+                    //byte[] conv = Encoding.Default.GetBytes(place.name);
+                    //place.name = Encoding.UTF8.GetString(conv);
                     placesList.Add(new DealerPlace
                     {
+                        
                         PlaceName = place.name,
                         Address = place.vicinity,
                         Location = place.geometry.location,
@@ -51,13 +54,14 @@ namespace MobileHelper
                         //Icon = place.icon,
                         //Distance = $"{GetDistance(lat1, lon1, place.geometry.location.lat, place.geometry.location.lng, DistanceUnit.Kiliometers).ToString("N2")}km",
                         //OpenNow = GetOpenHours(place?.opening_hours?.open_now)
-                    });
+                    });;
+
                 }
 
                 MyMap.ItemsSource = placesList;
                 //PlacesListView.ItemsSource = placesList;
                 //var loc = await Xamarin.Essentials.Geolocation.GetLocationAsync();
-                MyMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(47.6370891183, -122.123736172), Distance.FromKilometers(100)));
+                MyMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(53.127068, 29.194726), Distance.FromKilometers(100)));
 
             }
             catch (Exception ex)

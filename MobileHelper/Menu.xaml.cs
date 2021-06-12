@@ -15,9 +15,8 @@ namespace MobileHelper
 
         public Menu()
         {
-        NavigationPage.SetHasNavigationBar(this, false);
-
-        InitializeComponent();     
+            NavigationPage.SetHasNavigationBar(this, false);
+            InitializeComponent();
         }
     }
 }

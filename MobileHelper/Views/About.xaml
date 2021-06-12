@@ -4,10 +4,36 @@
              x:Class="MobileHelper.Views.About"
              Title="О нас">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Страница About"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ListView ItemsSource="{Binding AboutList}"
+               HasUnevenRows="True"
+               SeparatorVisibility="Default">
+            <ListView.ItemTemplate >
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10,10,20,10" RowSpacing="10" ColumnSpacing="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label
+                            Grid.Column="1"
+                            Text="{Binding Name}"
+                            TextColor="Black"
+                            
+                            VerticalOptions="End"/>
+                            <Label
+                            Text="{Binding Detail}"
+                            Grid.Column="1"
+                            Grid.Row="1"
+                            VerticalOptions="Start"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </ContentPage.Content>
 </ContentPage>

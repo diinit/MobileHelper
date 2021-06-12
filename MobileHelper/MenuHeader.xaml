@@ -6,12 +6,9 @@
     <ContentView.Content>
         <Grid HorizontalOptions="FillAndExpand"
               VerticalOptions="FillAndExpand">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="10"/>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="30"/>
-            </Grid.ColumnDefinitions>
+            
+            <Image Source="header.png" HeightRequest="200" Aspect="AspectFit" />
         </Grid>
+       
     </ContentView.Content>
 </ContentView>

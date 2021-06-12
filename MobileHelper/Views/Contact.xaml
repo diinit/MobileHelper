@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:Views="clr-namespace:MobileHelper.Views"
+             x:Class="MobileHelper.Views.Contact"
+             Title="Контакты">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Padding="20,5,5,5">
+            <Views:ExpandableView>
+                <Views:ExpandableView.Summary>
+                    
+                    <StackLayout>
+                        <Label
+                   Text="Телефон для получения справки"
+                   TextColor="Crimson"
+                   FontAttributes="Bold"
+                   FontSize="Large">
+                        </Label>
+                    </StackLayout>
+                </Views:ExpandableView.Summary>
+                <Views:ExpandableView.Details>
+                    <StackLayout>
+                        <Label x:Name="sprav"
+                   Text="+375225450449"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lSprav_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Label
+                   Text="E-mail"
+                   TextColor="Crimson"
+                   FontAttributes="Bold"
+                   FontSize="Large">
+                        </Label>
+                        <Label x:Name="email"
+                   Text="info@bztda.com"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lEmail_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </Views:ExpandableView.Details>
+            </Views:ExpandableView>
+            <Label Text=" " FontSize="1"/>
+            
+            <Views:ExpandableView>
+                <Views:ExpandableView.Summary>
+
+                    <StackLayout>
+                        <Label
+                   Text="Приемная директора"
+                   TextColor="Crimson"
+                   FontAttributes="Bold"
+                   FontSize="Large">
+                        </Label>
+                    </StackLayout>
+                </Views:ExpandableView.Summary>
+                <Views:ExpandableView.Details>
+                    <StackLayout>
+                        <Label x:Name="priem"
+                   Text="+375225450567"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lPriem_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </Views:ExpandableView.Details>
+            </Views:ExpandableView>
+            <Label Text=" " FontSize="1"/>
+
+            <Views:ExpandableView>
+                <Views:ExpandableView.Summary>
+
+                    <StackLayout>
+                        <Label
+                   Text="Главный инженер"
+                   TextColor="Crimson"
+                   FontAttributes="Bold"
+                   FontSize="Large">
+                        </Label>
+                    </StackLayout>
+                </Views:ExpandableView.Summary>
+                <Views:ExpandableView.Details>
+                    <StackLayout>
+                        <Label x:Name="eng"
+                   Text="+375225485115"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lEng_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </Views:ExpandableView.Details>
+            </Views:ExpandableView>
+            <Label Text=" " FontSize="1"/>
+
+            <Views:ExpandableView>
+                <Views:ExpandableView.Summary>
+
+                    <StackLayout>
+                        <Label
+                   Text="Заместитель директора по коммерческим вопросам"
+                   TextColor="Crimson"
+                   FontAttributes="Bold"
+                   FontSize="Large">
+                        </Label>
+                    </StackLayout>
+                </Views:ExpandableView.Summary>
+                <Views:ExpandableView.Details>
+                    <StackLayout>
+                        <Label x:Name="comm"
+                   Text="+375225450498"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lComm_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </Views:ExpandableView.Details>
+            </Views:ExpandableView>
+            <Label Text=" " FontSize="1"/>
+
+            <Views:ExpandableView>
+                <Views:ExpandableView.Summary>
+
+                    <StackLayout>
+                        <Label
+                   Text="Начальник управления маркетинга и сбыта"
+                   TextColor="Crimson"
+                   FontAttributes="Bold"
+                   FontSize="Large">
+                        </Label>
+                    </StackLayout>
+                </Views:ExpandableView.Summary>
+                <Views:ExpandableView.Details>
+                    <StackLayout>
+                        <Label x:Name="sales"
+                   Text="+375225469145"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lSales_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </Views:ExpandableView.Details>
+            </Views:ExpandableView>
+            <Label Text=" " FontSize="1"/>
+
+            <Views:ExpandableView>
+                <Views:ExpandableView.Summary>
+
+                    <StackLayout>
+                        <Label
+                   Text="Отдел реализации запасных частей"
+                   TextColor="Crimson"
+                   FontAttributes="Bold"
+                   FontSize="Large">
+                        </Label>
+                    </StackLayout>
+                </Views:ExpandableView.Summary>
+                <Views:ExpandableView.Details>
+                    <StackLayout>
+                        <Label
+                   Text="Страны ближнего и дальнего зарубежья"
+                   TextColor="DimGray"
+                   FontAttributes="Italic"
+                   FontSize="Medium">
+                        </Label>
+                        <Label x:Name="sp1"
+                   Text="+375225467707"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lSp1_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Label x:Name="sp2"
+                   Text="+375225450449"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lSp2_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+
+                        <Label
+                   Text="Беларусь"
+                   TextColor="DimGray"
+                   FontAttributes="Italic"
+                   FontSize="Medium">
+                        </Label>
+                        <Label x:Name="sp3"
+                   Text="+375225450529"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lSp3_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Label x:Name="sp4"
+                   Text="+375225450598"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lSp4_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Label
+                   Text="E-mail"
+                   TextColor="DimGray"
+                   FontAttributes="Italic"
+                   FontSize="Medium">
+                        </Label>
+                        <Label x:Name="em1"
+                   Text="bztdamarket@gmail.com"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lEm1_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Label x:Name="em2"
+                   Text="marketbztda@gmail.com"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lEm2_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </Views:ExpandableView.Details>
+            </Views:ExpandableView>
+            <Label Text=" " FontSize="1"/>
+
+            <Views:ExpandableView>
+                <Views:ExpandableView.Summary>
+
+                    <StackLayout>
+                        <Label
+                   Text="Отдел реализации тракторов"
+                   TextColor="Crimson"
+                   FontAttributes="Bold"
+                   FontSize="Large">
+                        </Label>
+                    </StackLayout>
+                </Views:ExpandableView.Summary>
+                <Views:ExpandableView.Details>
+                    <StackLayout>
+                        <Label
+                   Text="Беларусь"
+                   TextColor="DimGray"
+                   FontAttributes="Italic"
+                   FontSize="Medium">
+                        </Label>
+                        <Label x:Name="trac1"
+                   Text="+375225469165"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lTrac1_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Label x:Name="trac2"
+                   Text="+375172109136"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lTrac2_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+
+                        <Label
+                   Text="СНГ"
+                   TextColor="DimGray"
+                   FontAttributes="Italic"
+                   FontSize="Medium">
+                        </Label>
+                        <Label x:Name="trac3"
+                   Text="+375225467786"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lTrac3_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Label x:Name="trac4"
+                   Text="+375225467815"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lTrac4_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+
+                        <Label
+                   Text="Европа и Дальнее Зарубежье"
+                   TextColor="DimGray"
+                   FontAttributes="Italic"
+                   FontSize="Medium">
+                        </Label>
+                        <Label x:Name="trac5"
+                   Text="+375225467728"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lTrac5_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Label x:Name="trac6"
+                   Text="+375225467775"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lTrac6_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Label
+                   Text="E-mail"
+                   TextColor="DimGray"
+                   FontAttributes="Italic"
+                   FontSize="Medium">
+                        </Label>
+                        <Label x:Name="em3"
+                   Text="tdatractor@gmail.com"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="lEm3_Click"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </Views:ExpandableView.Details>
+            </Views:ExpandableView>
+            <Label Text=" " FontSize="1"/>
+
+                <Views:ExpandableView>
+                    <Views:ExpandableView.Summary>
+
+                        <StackLayout>
+                            <Label
+                   Text="Бюро протокола и рекламы"
+                   TextColor="Crimson"
+                   FontAttributes="Bold"
+                   FontSize="Large">
+                            </Label>
+                        </StackLayout>
+                    </Views:ExpandableView.Summary>
+                    <Views:ExpandableView.Details>
+                        <StackLayout>
+                            <Label x:Name="rek"
+                   Text="+375225467806"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="lRek_Click"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <Label
+                   Text="E-mail"
+                   TextColor="DimGray"
+                   FontAttributes="Italic"
+                   FontSize="Medium">
+                            </Label>
+                            <Label x:Name="mark"
+                   Text="market@bztda.com"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="lMark_Click"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                        </StackLayout>
+                    </Views:ExpandableView.Details>
+                </Views:ExpandableView>
+                <Label Text=" " FontSize="1"/>
+
+                <Views:ExpandableView>
+                    <Views:ExpandableView.Summary>
+
+                        <StackLayout>
+                            <Label
+                   Text="Бюро организации перевозок"
+                   TextColor="Crimson"
+                   FontAttributes="Bold"
+                   FontSize="Large">
+                            </Label>
+                        </StackLayout>
+                    </Views:ExpandableView.Summary>
+                    <Views:ExpandableView.Details>
+                        <StackLayout>
+                            <Label x:Name="perev"
+                   Text="+375225450621"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="lPerev_Click"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            
+                        </StackLayout>
+                    </Views:ExpandableView.Details>
+                </Views:ExpandableView>
+                <Label Text=" " FontSize="1"/>
+
+                <Views:ExpandableView>
+                    <Views:ExpandableView.Summary>
+
+                        <StackLayout>
+                            <Label
+                   Text="Отдел бытового и хозяйственного обслуживания"
+                   TextColor="Crimson"
+                   FontAttributes="Bold"
+                   FontSize="Large">
+                            </Label>
+                        </StackLayout>
+                    </Views:ExpandableView.Summary>
+                    <Views:ExpandableView.Details>
+                        <StackLayout>
+                            <Label x:Name="hoz"
+                   Text="+375225485981"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="lHoz_Click"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+
+                        </StackLayout>
+                    </Views:ExpandableView.Details>
+                </Views:ExpandableView>
+                <Label Text=" " FontSize="1"/>
+
+                <Views:ExpandableView>
+                    <Views:ExpandableView.Summary>
+
+                        <StackLayout>
+                            <Label
+                   Text="Главный бухгалтер"
+                   TextColor="Crimson"
+                   FontAttributes="Bold"
+                   FontSize="Large">
+                            </Label>
+                        </StackLayout>
+                    </Views:ExpandableView.Summary>
+                    <Views:ExpandableView.Details>
+                        <StackLayout>
+                            <Label x:Name="buh"
+                   Text="+375225450443"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="lBuh_Click"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+
+                        </StackLayout>
+                    </Views:ExpandableView.Details>
+                </Views:ExpandableView>
+                <Label Text=" " FontSize="1"/>
+
+                <Views:ExpandableView>
+                    <Views:ExpandableView.Summary>
+
+                        <StackLayout>
+                            <Label
+                   Text="Бюро расчетов с рабочими и служащими"
+                   TextColor="Crimson"
+                   FontAttributes="Bold"
+                   FontSize="Large">
+                            </Label>
+                        </StackLayout>
+                    </Views:ExpandableView.Summary>
+                    <Views:ExpandableView.Details>
+                        <StackLayout>
+                            <Label x:Name="sl"
+                   Text="+375225467755"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="lSl_Click"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+
+                        </StackLayout>
+                    </Views:ExpandableView.Details>
+                </Views:ExpandableView>
+                <Label Text=" " FontSize="1"/>
+
+                <Views:ExpandableView>
+                    <Views:ExpandableView.Summary>
+
+                        <StackLayout>
+                            <Label
+                   Text="Финансовый отдел (акты сверок)"
+                   TextColor="Crimson"
+                   FontAttributes="Bold"
+                   FontSize="Large">
+                            </Label>
+                        </StackLayout>
+                    </Views:ExpandableView.Summary>
+                    <Views:ExpandableView.Details>
+                        <StackLayout>
+                            <Label x:Name="sv"
+                   Text="+375225469146"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="lSv_Click"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+
+                        </StackLayout>
+                    </Views:ExpandableView.Details>
+                </Views:ExpandableView>
+                <Label Text=" " FontSize="1"/>
+
+                <Views:ExpandableView>
+                    <Views:ExpandableView.Summary>
+
+                        <StackLayout>
+                            <Label
+                   Text="Отдел кадров"
+                   TextColor="Crimson"
+                   FontAttributes="Bold"
+                   FontSize="Large">
+                            </Label>
+                        </StackLayout>
+                    </Views:ExpandableView.Summary>
+                    <Views:ExpandableView.Details>
+                        <StackLayout>
+                            <Label x:Name="k1"
+                   Text="+375225450491"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="lK1_Click"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <Label x:Name="k2"
+                   Text="+375225469170"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="lK2_Click"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <Label x:Name="k3"
+                   Text="+375225469174"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="lK3_Click"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <Label
+                   Text="E-mail"
+                   TextColor="DimGray"
+                   FontAttributes="Italic"
+                   FontSize="Medium">
+                            </Label>
+                            <Label x:Name="okito"
+                   Text="okito_tdia@mail.ru"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   TextDecorations="Underline">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="lOkito_Click"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                        </StackLayout>
+                    </Views:ExpandableView.Details>
+                </Views:ExpandableView>
+                <Label Text=" " FontSize="1"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

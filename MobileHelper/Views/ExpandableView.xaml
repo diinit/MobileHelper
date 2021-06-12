@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileHelper.Views.ExpandableView">
+
+    <StackLayout  x:Name="Layout" Orientation="Vertical" 
+                  HorizontalOptions="FillAndExpand" 
+                  VerticalOptions="FillAndExpand">
+        <StackLayout x:Name="SummaryRegion"/>
+        <StackLayout x:Name="DetailsRegion" 
+                         IsVisible="False"/>
+    </StackLayout>
+</ContentView>
